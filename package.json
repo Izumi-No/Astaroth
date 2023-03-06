@@ -1,0 +1,14 @@
+{
+  "name": "astaroth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/Izumi-No/Astaroth.git",
+  "author": "Izumi-No <kevynmiguel@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "getpb": "wget https://github.com/pocketbase/pocketbase/releases/download/v0.13.1/pocketbase_0.13.1_linux_arm64.zip && unzip -d ./pb pocketbase_0.13.1_linux_arm64.zip",
+    "pocketbase": "./pb/pocketbase serve"
+  }
+}
